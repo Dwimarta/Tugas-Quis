@@ -1,0 +1,14 @@
+# segitiga
+package form_perhitungan;
+import kelas_perhitungan.segitiga;
+public class form_segitiga extends javax.swing.JPanel {
+public form_segitiga() {
+        initComponents();
+    }
+private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    segitiga a = new segitiga();
+    double alas = Double.parseDouble(jTextField1.getText());
+    double tinggi= Double.parseDouble(jTextField2.getText());
+    double hasil = a.LuasSegitiga(alas, tinggi);
+    jLabel3.setText("hasil ="+hasil);
+    }                                        
