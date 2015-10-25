@@ -1,0 +1,12 @@
+# persegi
+package form_perhitungan;
+import kelas_perhitungan.persegi;
+public class form_lingkaran extends javax.swing.JPanel {
+public form_persegi() {
+        initComponents();
+    }
+ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        persegi a = new persegi();
+        int sisi  = Integer.parseInt(jTextField1.getText());
+        int hasil = a.luaspersegi(sisi);
+        jLabel2.setText("hasil ="+hasil);  }    
