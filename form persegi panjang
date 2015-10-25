@@ -1,0 +1,14 @@
+# persegi panjang
+package form_perhitungan;
+import kelas_perhitungan.persegi_panjang;
+public class form_persegipanjang extends javax.swing.JPanel {
+public form_persegipanjang() {
+        initComponents();
+    }
+private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    persegi_panjang a = new persegi_panjang();
+    int panjang = Integer.parseInt(jTextField1.getText());
+    int lebar   = Integer.parseInt(jTextField2.getText());
+    int hasil   = (int) a.LuasPersegiPanjang(panjang, lebar);
+    jLabel3.setText("hasil ="+hasil);
+    }                                        
