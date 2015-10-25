@@ -1,0 +1,9 @@
+# lingkaran
+package kelas_perhitungan;
+public class lingkaran {
+    double luas ;
+    public double luaslingkaran (double jarijari){
+        luas = 3.14 * jarijari * jarijari;
+        return luas;      
+ }
+}
