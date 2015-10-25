@@ -1,0 +1,9 @@
+# persegi panjang
+package kelas_perhitungan;
+public class persegi_panjang {
+    double luas;
+    public double LuasPersegiPanjang (int panjang, int lebar){
+        luas = panjang * lebar;
+        return luas;
+    }    
+}
