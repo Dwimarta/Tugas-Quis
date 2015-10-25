@@ -1,0 +1,9 @@
+# persegi
+package kelas_perhitungan;
+public class persegi {
+    int luas;
+    public int luaspersegi (int sisi){
+        luas = sisi * sisi;
+        return luas;
+    }    
+}
